@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Dialog Flow connection
         let configuration = AIDefaultConfiguration()
-        configuration.clientAccessToken = "4e485f3ed2d7499cb71c5860e6961535"
+        configuration.clientAccessToken = SecretKey.dialogAPIkey
         let apiai = ApiAI.shared()
         apiai?.configuration = configuration
         

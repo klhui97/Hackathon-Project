@@ -20,7 +20,7 @@ class GoogleTranslateAPI {
         let urlParams = [
             "target": target,
             "q": textToTranslate,
-            "key": "AIzaSyClJIlXodyGS3a8e-gKNVal0PE0tydM87I"
+            "key": SecretKey.googleTranslateAPIkey
             ]
         
         // Fetch Request

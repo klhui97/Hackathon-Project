@@ -23,7 +23,7 @@ class MSOCR: NSObject {
     let url = "https://eastus.api.cognitive.microsoft.com/vision/v1.0/ocr"
     
     /// Your private API key. If you havn't changed it yet, go ahead!
-    let key = "58d19c92113b47afa87ef0c20d3ba985"
+    let key = SecretKey.MSVisionAPIkey
     
     /// Detectable Languages
     enum Langunages: String {

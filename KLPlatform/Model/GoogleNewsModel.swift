@@ -35,7 +35,7 @@ class GoogleNewsModel{
     func fetchData(completion: @escaping (_ result: Bool)->()){
         // Add URL parameters
         let urlParams = [
-            "apiKey": "8bff5b23216443659b5f5cb237949be5",
+            "apiKey": SecretKey.googleNewAPI,
             "q": keyword,
             "from": from,
             "sortBy": "popularity"
