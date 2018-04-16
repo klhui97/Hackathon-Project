@@ -9,10 +9,10 @@
 import UIKit
 
 class UserListTableViewCell: UITableViewCell {
-
-    @IBOutlet var nameLbl: UILabel!
-    @IBOutlet var typeLbl: UILabel!
-    @IBOutlet var regionLbl: UILabel!
-    
-    
+  
+  @IBOutlet var nameLbl: UILabel!
+  @IBOutlet var typeLbl: UILabel!
+  @IBOutlet var regionLbl: UILabel!
+  
+  
 }

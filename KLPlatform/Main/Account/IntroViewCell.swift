@@ -9,7 +9,7 @@
 import UIKit
 
 class IntroViewCell: UITableViewCell {
-
-    @IBOutlet var introLbl: UILabel!
-    
+  
+  @IBOutlet var introLbl: UILabel!
+  
 }

@@ -9,8 +9,8 @@
 import UIKit
 
 class NewsTableViewCell: UITableViewCell {
-    
-    @IBOutlet var titleLbl: UILabel!
-    @IBOutlet var dateLbl: UILabel!
-    
+  
+  @IBOutlet var titleLbl: UILabel!
+  @IBOutlet var dateLbl: UILabel!
+  
 }

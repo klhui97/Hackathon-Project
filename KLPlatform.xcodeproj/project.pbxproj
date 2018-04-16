@@ -31,6 +31,7 @@
 		6B313EA12078F656001D2EF3 /* pdfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B313E9F2078F656001D2EF3 /* pdfViewController.xib */; };
 		6B313EA32078FBD9001D2EF3 /* sample1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6B313EA22078FBD8001D2EF3 /* sample1.pdf */; };
 		6B313EA52078FC78001D2EF3 /* sample2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6B313EA42078FC77001D2EF3 /* sample2.pdf */; };
+		6B313EB82080969C001D2EF3 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B313EB72080969C001D2EF3 /* SecretKey.swift */; };
 		6B44546F205C9C7800BB61EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B44546E205C9C7800BB61EF /* AppDelegate.swift */; };
 		6B445474205C9C7800BB61EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B445472205C9C7800BB61EF /* Main.storyboard */; };
 		6B445479205C9C7800BB61EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B445477205C9C7800BB61EF /* LaunchScreen.storyboard */; };
@@ -112,6 +113,7 @@
 		6B313E9F2078F656001D2EF3 /* pdfViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pdfViewController.xib; sourceTree = "<group>"; };
 		6B313EA22078FBD8001D2EF3 /* sample1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample1.pdf; sourceTree = "<group>"; };
 		6B313EA42078FC77001D2EF3 /* sample2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample2.pdf; sourceTree = "<group>"; };
+		6B313EB72080969C001D2EF3 /* SecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
 		6B44546B205C9C7800BB61EF /* KLPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B44546E205C9C7800BB61EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B445473205C9C7800BB61EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				6B44546E205C9C7800BB61EF /* AppDelegate.swift */,
+				6B313EB72080969C001D2EF3 /* SecretKey.swift */,
 				6B4454C3205E170D00BB61EF /* Resources */,
 				6B445482205C9FED00BB61EF /* Home */,
 				6B4454B1205D447300BB61EF /* Model */,
@@ -645,6 +648,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B8B6376206566E900B97322 /* RoundButton.swift in Sources */,
+				6B313EB82080969C001D2EF3 /* SecretKey.swift in Sources */,
 				6BCBCFEF20709040008BC543 /* StepsTableViewController.swift in Sources */,
 				6B90CD60206E0B74000F692C /* UserListViewController.swift in Sources */,
 				6B4454D5205E306400BB61EF /* PostListViewCell.swift in Sources */,

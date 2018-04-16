@@ -9,7 +9,7 @@
 import UIKit
 
 class SettingViewCell: UITableViewCell {
-    
-    @IBOutlet var titleLbl: UILabel!
-    
+  
+  @IBOutlet var titleLbl: UILabel!
+  
 }

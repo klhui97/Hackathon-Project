@@ -9,9 +9,9 @@
 import UIKit
 
 class PostListViewCell: UITableViewCell {
-
-    @IBOutlet var titleLbl: UILabel!
-    @IBOutlet var typeLbl: UILabel!
-    @IBOutlet var nameLbl: UILabel!
-    
+  
+  @IBOutlet var titleLbl: UILabel!
+  @IBOutlet var typeLbl: UILabel!
+  @IBOutlet var nameLbl: UILabel!
+  
 }
