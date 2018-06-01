@@ -16,4 +16,4 @@ This project cannot be run probably beacuse the API key is hidden.
 
 ### A2J hackathon prototype video
 
-[Watch the video by clicking here](https://youtubevideourl)
+[Watch the video by clicking here](https://youtu.be/mcVswZleWGg)
