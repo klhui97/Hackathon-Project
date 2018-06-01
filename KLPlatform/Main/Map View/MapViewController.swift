@@ -134,13 +134,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     // Show the current user's location
     mapView.showsUserLocation = true
     
-    // Request for a user's authorization for location services
-    locationManager.requestWhenInUseAuthorization()
-    let status = CLLocationManager.authorizationStatus()
     
-    if status == CLAuthorizationStatus.authorizedWhenInUse {
-      mapView.showsUserLocation = true
-    }
     
     // Convert address to coordinate and annotate it on map
     displayMultipleAnnotate()
